@@ -1,0 +1,4 @@
+name: SNFishing
+version: '${project.version}'
+main: org.snetwork.snfishing.SNFishing
+api-version: '1.16'
