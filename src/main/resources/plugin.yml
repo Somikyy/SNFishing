@@ -2,3 +2,14 @@ name: SNFishing
 version: '${project.version}'
 main: org.snetwork.snfishing.SNFishing
 api-version: '1.16'
+
+commands:
+  snfishing:
+    description: "Открывает меню настройки рыбалки."
+    usage: "/snfishing"
+    permission: snfishing.use
+
+permissions:
+  snfishing.use:
+    description: "Разрешение на использование команды /snfishing."
+    default: true
