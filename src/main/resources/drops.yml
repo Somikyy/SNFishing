@@ -1,0 +1,13 @@
+items:
+  diamond:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 1
+  fish:
+    ==: org.bukkit.inventory.ItemStack
+    type: COD
+    amount: 1
+
+mobs:
+  ZOMBIE: 0.1
+  SKELETON: 0.05

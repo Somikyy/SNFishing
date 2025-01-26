@@ -1,0 +1,4 @@
+messages:
+  rare-event: "§6Редкое событие! Вы поймали что-то особенное!"
+  command-usage: "Используйте: /snfishing additem <id> или /snfishing addmob <id> <chance>"
+  unknown-command: "Неизвестная команда!"
