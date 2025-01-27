@@ -14,6 +14,7 @@ public class ConfigManager {
     private FileConfiguration dropsConfig;
     private File dropsFile;
 
+    @Getter
     private final JavaPlugin plugin;
 
     public ConfigManager(JavaPlugin plugin) {
@@ -21,7 +22,7 @@ public class ConfigManager {
         loadConfigs();
     }
 
-    private void loadConfigs() {
+    public void loadConfigs() {
         if (!plugin.getDataFolder().exists()) {
             plugin.getDataFolder().mkdir();
         }

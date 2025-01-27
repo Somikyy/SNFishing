@@ -1,12 +1,14 @@
 items:
   diamond:
-    ==: org.bukkit.inventory.ItemStack
-    type: DIAMOND
+    material: DIAMOND
     amount: 1
+    displayname: '&bАлмаз'
+    chance: 10  # Шанс в процентах
   fish:
-    ==: org.bukkit.inventory.ItemStack
-    type: COD
+    material: COD
     amount: 1
+    displayname: '&7Рыба'
+    chance: 50
 
 mobs:
   ZOMBIE: 0.1

@@ -1,8 +1,7 @@
 package org.snetwork.snfishing.events;
 
 import org.snetwork.snfishing.SNFishing;
-import org.snetwork .snfishing.fishing.FishingMechanics;
-import org.bukkit.entity.Player;
+import org.snetwork.snfishing.fishing.FishingMechanics;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerFishEvent;
@@ -19,9 +18,6 @@ public class FishingListener implements Listener {
 
     @EventHandler
     public void onPlayerFish(PlayerFishEvent event) {
-        Player player = event.getPlayer();
-        event.setCancelled(true);
-
-        fishingMechanics.startFishing(player);
+        fishingMechanics.handleFishing(event);
     }
 }
